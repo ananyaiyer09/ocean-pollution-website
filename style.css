@@ -1,0 +1,535 @@
+/* -------HOME PAGE------- */
+
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+#home-stat {
+   background-image: url('assets/plastic-shore.webp');
+   position: absolute;
+   height: 550px;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+}
+
+#title-shift {
+   display: flex;
+   justify-content: flex-end;
+}
+
+#title-container {
+   position: absolute;
+   text-align: right;
+   background-color: #0077B6;
+   opacity: 0.85;
+   padding: 25px;
+   border-radius: 20px;
+   margin: 30px;
+   margin-top: 100px;
+   width: 40%
+}
+
+#synopsis-container {
+   position: absolute;
+   background-color: #03045E;
+   border-radius: 20px;
+   padding: 60px;
+   margin-top: 540px;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+
+#synopsis-blurb {
+   margin-top: 40px;
+}
+
+#problems {
+   display: flex;
+   margin-top: 40px;
+}
+
+.problem-container {
+   background-color: #0096C7;
+   padding: 20px;
+   width: 30%;
+   height: auto;
+   border-radius: 20px;
+   margin: 10px;
+   text-align: center;
+}
+
+
+/* STYLE TEXT */
+
+.title-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 50px;
+   font-weight: 800;
+   color: white;
+}
+
+.title-subheader {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   color: white;
+}
+
+.synopsis-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   font-weight: 500;
+   color: #CAF0F8;
+}
+
+.synopsis-credit {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: 300;
+   color: #CAF0F8;
+}
+
+.synopsis-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   font-weight: 200;
+   color: white;
+}
+
+.synopsis-text-2 {
+   margin-top: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   font-weight: 300;
+   color: white;
+}
+
+.problem-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+   color: #03045E;
+   margin-top: 20px;
+}
+
+.problem-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #03045E;
+   margin-top: 20px;
+}
+
+/* STYLE IMAGES */
+
+.problem-img {
+   border-radius: 50%;
+   width: 160px;
+   height: 160px;
+   object-fit: cover;
+   text-align: center;
+}
+
+/* STYLE NAV BAR */
+#top-nav {
+   position: absolute;
+}
+
+ul {
+   list-style-type: none;
+   background-color: #023E8A;
+   overflow: hidden;
+   padding: 1em;
+   text-align: right;
+   border-radius: 20px;
+   margin: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: #0077B6;
+  border-radius: 40px;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+
+/*-------------------------------------------------------------/*
+
+/* ------ABOUT PAGE------- */
+
+/* STYLE SECTIONING TAGS */
+#page-bg {
+   background-color: #03045E;
+}
+
+#fact-generator-container {
+   margin-top: 710px;
+   background-color: #0077B6;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 20px;
+   margin-bottom: 100px;
+   padding: 60px;
+}
+
+#buttons-container {
+   display: flex;
+   justify-content: center;
+   margin: 30px;
+   margin-bottom: 100px;
+}
+
+/* STYLE TEXT */
+#ocean-pollution-text {
+   float: left;
+   margin: 50px;
+   width: 38%;
+   margin-bottom: 50px;
+}
+
+.about-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 75px;
+   font-weight: 550;
+   color: #CAF0F8;
+   margin-left: 100px;
+   margin-top: 60px;
+}
+
+.about-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   font-weight: 300;
+   color: #CAF0F8;
+}
+
+.fact-generator-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   color: #CAF0F8;
+}
+
+.fact-generator-credit {
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   font-weight: 250;
+   color: white;
+}
+
+.solution-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 75px;
+   font-weight: 550;
+   color: #CAF0F8;
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+.solution-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   font-weight: 300;
+   color: #CAF0F8;
+   margin-top: 20px;
+   margin-left: 100px;
+   margin-right: 60px;
+   margin-bottom: 50px;
+}
+
+.button-text {
+   color: white;
+   text-decoration: none;
+}
+
+/* STYLE IMAGES */
+#ocean-pollution-img-container {
+   float:left;
+   margin-bottom: 50px;
+}
+
+#ocean-pollution-img {
+   width: 500px;
+   height: auto;
+   object-fit: cover;
+   margin: 50px;
+   margin-left: 100px;
+   border-radius: 20px;
+}
+
+/* STYLE BUTTONS */
+#generate-button {
+   background-color: #1fc781;
+   border-radius: 15px;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   padding: 15px;
+   margin-top: 25px;
+}
+
+#generate-button:hover {
+   background-color: #19ad6f;
+}
+
+.button1 {
+   background-color: #00B4D8;
+   opacity: 1;
+   border-radius: 20px;
+   width: 40%;
+   height: 100px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+   font-weight: 500;
+   color: white;
+   margin-right: 20px;
+}
+
+.button1:hover {
+   background-color: #0096C7;
+}
+
+.button2 {
+   background-color: #86d9cd;
+   opacity: 1;
+   border-radius: 20px;
+   width: 40%;
+   height: 100px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+   font-weight: 500;
+   color: white;
+   margin-left: 20px;
+}
+
+.button2:hover {
+   background-color: #78bfb5;
+}
+
+/* ADD MORE! */
+
+
+/*-------------------------------------------------------------/*
+
+/* ------RESOURCES PAGE------- */
+/* STYLE SECTIONING TAGS */
+#page-bg-2 {
+   background-color: #03045E;
+}
+
+#video-container {
+   margin: 50px;
+   float: right;
+}
+
+#side-nav {
+   height: auto;
+   width: 200px;
+   border-radius: 20px;
+   background-color: #023E8A;
+   margin: 50px;
+   padding: 20px;
+   margin-left: 100px;
+}
+
+#side-nav a {
+   text-decoration: none;
+   color: #ADE8F4;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   display: block;
+   padding: 20px;
+}
+
+#side-nav a:hover {
+   background-color: #0077B6;
+   border-radius: 20px;
+}
+
+.resources-container {
+   align: left;
+   margin: 100px;
+   line-height: 60px;
+   padding: 20px;
+   margin-bottom: 80px;
+}
+
+
+/* STYLE TEXT */
+
+.resource-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   color: #ADE8F4;
+}
+
+.resources-link {
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   color: white;
+}
+
+.resources-link:hover {
+   color: #48CAE4;
+}
+
+
+/* STYLE IMAGES */
+
+
+/* STYLE NAV BAR */
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+
+/*-------------------------------------------------------------/*
+
+/* ------INVOLVED PAGE------- */
+/* STYLE SECTIONING TAGS */
+#page-bg-3 {
+   background-color: #03045E;
+}
+
+.activities-img-container {
+   float: left;
+}
+
+.activities-text {
+   float: left;
+   margin-left: 40px;
+}
+
+.activities-container {
+   margin: 100px;
+   margin-top: 30px;
+   padding: 20px;
+   margin-bottom: 40px;
+   display: flex;
+}
+
+#organizations {
+   display: flex;
+   margin: 100px;
+}
+
+#organizations-2 {
+   display: flex;
+   margin: 100px;
+}
+
+.organization-container {
+   background-color: #0096C7;
+   padding: 25px;
+   width: 45%;
+   height: auto;
+   border-radius: 20px;
+   text-align: center;
+   margin: 20px;
+   margin-top: -30px;
+}
+
+
+/* STYLE TEXT */
+
+.article-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+   font-weight: 250;
+   color: white;
+   margin: 40px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
+.involved-subheader {
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+   font-weight: 500;
+   color: #ADE8F4;
+   margin-left: 100px;
+}
+
+.help-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+   font-weight: 500;
+   color: white;
+   text-align: right;
+}
+
+.help-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 22px;
+   font-weight: 200;
+   color: white;
+   text-align: right;
+}
+
+.organization-header {
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   color: #03045E;
+   margin-top: 20px;
+}
+
+.organization-text {
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 500;
+   color: #03045E;
+}
+
+.organization-link {
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #023E8A;
+   text-decoration: underline;
+}
+
+
+/* STYLE IMAGES */
+
+.activities-img {
+   height: 300px;
+   width: 460px;
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+.organization-img {
+   height: 250px;
+   width: 400px;
+   object-fit: cover;
+   border-radius: 20px;
+}
+
+
+/* STYLE NAV BAR */
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
